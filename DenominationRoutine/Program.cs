@@ -8,6 +8,7 @@ public class Program
     {
         double[] Consumption = { 3500, 4500, 6000 };
 
+        //We can use Factory or Abstract Factory Pattern to separate object creation if the products increase.
         AbstractProduct productA = new ProductA();
         AbstractProduct productB = new ProductB();
 
